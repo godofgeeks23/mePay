@@ -157,8 +157,8 @@ header {
   height: auto;
 }
 
-.transfer-type:Before {
-  content: '';
+.transfer-type:before {
+  content: "";
   position: relative;
   top: 0;
   left: 0;
@@ -175,7 +175,7 @@ header {
   font-family: "Montserrat", sans-serif;
   color: white;
   margin: 0 2.5%;
-  padding: 1% 0 1% 0; 
+  padding: 1% 0 1% 0;
 }
 
 #bank-transfer-container .transfer-title {
@@ -200,7 +200,7 @@ header {
   color: grey;
 }
 
-.wallet-form {  
+.wallet-form {
   padding: 10px 15px;
 }
 
@@ -278,6 +278,5 @@ header {
 .submit-btn:hover {
   background-color: #fba81c;
 }
-
 
 /* footer section ends */
