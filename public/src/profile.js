@@ -191,7 +191,9 @@ function setImgToLocalStorage(URL) {
   }
 }
 
-//We can fetch user profile img either from local storage or from firebase realtime database but fetching from local storage would be faster--------------------------------------------//
+//We can fetch user profile img either from local storage, 
+// or from firebase realtime database. But fetching from local 
+// storage would be faster--------------------------------------------//
 //-----------------------------------------Getting Image URL from Local/Session Storage to show on profile--------------------------------------------//
 function getImgFromLocalStorage(URL) {
   if (currentUser.profileImgURL != "null") {
