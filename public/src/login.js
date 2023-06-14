@@ -1,6 +1,6 @@
 //In this js file, swal is a keyword in sweetalert.js used instead of alert keyword.
 
-//reseting the browser storage value
+//resetting the browser storage value 
 let proceedFromHomeButtonOnly = false;
 sessionStorage.setItem("proceedFromHomeButtonOnly", proceedFromHomeButtonOnly);
 
