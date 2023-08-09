@@ -11,6 +11,7 @@ let payFromFacePageOnly = false;
 sessionStorage.setItem("payFromFacePageOnly", payFromFacePageOnly);
 
 // if already logged in avoid login again
+
 let currentUser = null;
 let keepLoggedIn = localStorage.getItem("keepLoggedIn");
 function getUserName() {
