@@ -60,8 +60,11 @@ const db = getDatabase();
 //-----------------------------------------The References--------------------------------------------//
 
 const email = document.getElementById("emailInp");
+
 const pass = document.getElementById("passInp");
+
 const submit = document.getElementById("submitBtn");
+
 
 //-----------------------------------------VALIDATION-----------------------------------------------//
 function isEmptyOrSpaces(str) {
