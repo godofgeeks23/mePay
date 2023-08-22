@@ -65,7 +65,6 @@ const pass = document.getElementById("passInp");
 
 const submit = document.getElementById("submitBtn");
 
-
 //-----------------------------------------VALIDATION-----------------------------------------------//
 function isEmptyOrSpaces(str) {
   return str == null || str.match(/^ *$/) != null;
