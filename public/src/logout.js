@@ -9,6 +9,7 @@ let payFromFacePageOnly = false;
 sessionStorage.setItem("payFromFacePageOnly", payFromFacePageOnly);
 
 //-----------------------------------------The References--------------------------------------------//
+
 const signup = document.getElementById("signup");
 const login = document.getElementById("login");
 const profile = document.getElementById("profile");
@@ -16,6 +17,7 @@ const homeButton = document.getElementById("home-next-btn");
 let currentUser = null;
 
 //-----------------------------------------Functions--------------------------------------------//
+
 function getUserName() {
   let keepLoggedIn = localStorage.getItem("keepLoggedIn");
 
@@ -38,6 +40,7 @@ const logout = () => {
 };
 
 //-----------------------------------------WINDOWS LOADS--------------------------------------------//
+
 window.onload = function () {
   getUserName();
   // null is when user is not logged in
