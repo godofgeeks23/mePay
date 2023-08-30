@@ -16,7 +16,7 @@ const profile = document.getElementById("profile");
 const homeButton = document.getElementById("home-next-btn");
 let currentUser = null;
 
-//-----------------------------------------Functions--------------------------------------------//
+//------------------------------------------------Functions------------------------------------------//
 
 function getUserName() {
   let keepLoggedIn = localStorage.getItem("keepLoggedIn");
