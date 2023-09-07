@@ -12,8 +12,6 @@
   display: block;
 }
 
-/* header section starts */
-
 header {
   text-align: center;
   padding: 1% 5% 1% 5%;
@@ -24,10 +22,6 @@ header {
   width: auto;
   height: 50px;
 }
-
-/* header section ends */
-
-/* main section starts */
 
 main {
   width: auto;
@@ -67,10 +61,6 @@ main {
   font-size: 0.8rem;
 }
 
-/* main section ends */
-
-/* footer section starts */
-
 .submit-container {
   margin: 1% 10%;
   padding: 1% 5% 1% 5%;
@@ -99,5 +89,3 @@ main {
 .submit-btn:hover {
   background-color: #002447;
 }
-
-/* footer section ends */
